@@ -15,7 +15,7 @@ services:
     depends_on:
       - backend
     environment:
-      - VITE_API_URL=https://turbo-sniffle-4j4q4xqjx7qq2jxv-5000.app.github.dev
+      - VITE_API_URL=http://localhost:5000
 #Leaving a comment here to say that I was very confused why this address would constantly say Cannot GET /
 #I now realize I overlooked the fact that I could successfully launch the App.
 
